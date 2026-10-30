@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Local Drive Sync</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; font:16px/1.7 -apple-system,"Noto Sans SC",system-ui,sans-serif; background:#0f1115; color:#e6e8ee; }
+  main { max-width:44rem; margin:0 auto; padding:4rem 1.5rem 6rem; }
+  h1 { font-size:1.6rem; }
+  p, li { color:#b9bfcc; }
+  a { color:#7aa2ff; }
+  code { background:#1a1e26; padding:.1em .35em; border-radius:4px; }
+  footer { margin-top:3rem; font-size:.85rem; color:#6d7480; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Local Drive Sync</h1>
+  <p>个人自用的 OAuth 客户端，仅由所有者本机的命令行工具（rclone / gog）调用，用于读写所有者自己的 Google Drive。</p>
+  <ul>
+    <li>不提供服务注册，不接受第三方登录，不面向公众发布。</li>
+    <li>只请求完成文件同步所必需的 Google Drive 权限。</li>
+    <li>OAuth 令牌仅保存在所有者本机（<code>~/.config/rclone/rclone.conf</code>，权限 0600）。</li>
+  </ul>
+  <p><a href="./privacy.html">隐私政策 / Privacy Policy</a></p>
+  <footer>Contact: <a href="https://github.com/Bugjumpawa">GitHub @Bugjumpawa</a></footer>
+</main>
+</body>
+</html>
