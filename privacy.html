@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · Local Drive Sync</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; font:16px/1.75 -apple-system,"Noto Sans SC",system-ui,sans-serif; background:#0f1115; color:#e6e8ee; }
+  main { max-width:44rem; margin:0 auto; padding:4rem 1.5rem 6rem; }
+  h1 { font-size:1.5rem; } h2 { font-size:1.05rem; margin-top:2.2rem; }
+  p, li { color:#b9bfcc; }
+  a { color:#7aa2ff; }
+  footer { margin-top:3rem; font-size:.85rem; color:#6d7480; }
+</style>
+</head>
+<body>
+<main>
+  <h1>隐私政策 / Privacy Policy</h1>
+  <p>最后更新：2026-10-30</p>
+  <h2>1. 这个应用是什么</h2>
+  <p>“Local Drive Sync”是仅供所有者本人使用的个人 OAuth 客户端（Google Cloud 项目中的一个 Desktop 客户端）。不对外提供服务、不注册用户、不在任何应用商店发布。</p>
+  <h2>2. 处理哪些数据</h2>
+  <p>经 Google OAuth 授权后，可以访问所有者本人 Google Drive 中的文件（读取、上传、修改、删除、移动）及文件元数据（名称、大小、修改时间、共享设置）。不访问其他 Google 服务。</p>
+  <h2>3. 数据如何保存</h2>
+  <ul>
+    <li>OAuth 访问令牌与刷新令牌保存在所有者本机配置文件（权限 0600），不发送到第三方服务器。</li>
+    <li>文件内容仅在所有者本机与 Google 服务器之间直接传输。</li>
+    <li>本地缓存仅存于本机，按设定的大小与时长上限自动清理。</li>
+  </ul>
+  <h2>4. 共享与转让</h2>
+  <p>不向任何第三方出售、出租、共享或转让数据；除所有者主动操作外，不改变文件的共享状态。</p>
+  <h2>5. 保留与删除</h2>
+  <p>撤销授权即失去访问能力；删除本机配置文件即移除令牌。删除的文件进入 Google Drive 回收站，由 Google 的保留策略处理。</p>
+  <h2>6. Google API 服务用户数据政策</h2>
+  <p>对从 Google API 获得的信息的使用遵守
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 要求。</p>
+  <h2>7. 联系方式</h2>
+  <p>问题反馈：<a href="https://github.com/Bugjumpawa">GitHub @Bugjumpawa</a></p>
+  <footer><a href="./">← 返回首页</a></footer>
+</main>
+</body>
+</html>
